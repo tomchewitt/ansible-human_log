@@ -96,7 +96,7 @@ class CallbackModule(object):
         self.human_log(res)
 
     def runner_on_ok(self, host, res):
-        self.human_log(res)
+        pass
 
     def runner_on_skipped(self, host, item=None):
         pass
@@ -111,7 +111,7 @@ class CallbackModule(object):
         self.human_log(res)
 
     def runner_on_async_ok(self, host, res, jid):
-        self.human_log(res)
+        pass
 
     def runner_on_async_failed(self, host, res, jid):
         self.human_log(res)
@@ -161,7 +161,7 @@ class CallbackModule(object):
         self.human_log(result._result)
 
     def v2_runner_on_ok(self, result):
-        self.human_log(result._result)
+        pass
 
     def v2_runner_on_skipped(self, result):
         pass
@@ -176,7 +176,7 @@ class CallbackModule(object):
         self.human_log(result._result)
 
     def v2_runner_on_async_ok(self, host, result):
-        self.human_log(result._result)
+        pass
 
     def v2_runner_on_async_failed(self, result):
         self.human_log(result._result)
